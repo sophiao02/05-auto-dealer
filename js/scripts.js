@@ -33,7 +33,7 @@ for (let x = 0; x < reviews.length; x++) {
   
   for (let step = 0; step<reviews[x].stars; step++) {
     const revIndicator = document.createElement('img')
-    revIndicator.src = "../images/star.svg"
+    revIndicator.src = "./images/star.svg" 
     myRating.appendChild(revIndicator)
   }
   
