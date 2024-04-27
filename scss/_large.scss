@@ -1,0 +1,16 @@
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+    button {display:none;}
+    ul, ul.open {
+        margin-left: 2vw;
+        border: none;
+        display: flex;
+    }//end of ul
+    ul li {border: none;}
+}//end nav
+

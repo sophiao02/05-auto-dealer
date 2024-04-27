@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Auto Dealer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo.png" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x" alt="Logo" width="40" height="40" />
+		<h1>The Auto Shop</h1>
+        <a href="#">801-555-6789</a>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+        <li><a href="#">Home</a>
+        <li><a href="#">Clients</a></li>
+        <li class="active"><a href="#">Services</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <div class="parentHero">
+            <img src="images/hero.webp" width="1200" height="500" alt="">
+            <p>We Make Cars Go VROOM</p>
+        </div>
+        <h1>Services</h1>
+
+        <div class="cards">
+            <section class="bounce">
+                <img src="images/oil.svg" alt="oil">
+                <p>Oil Change</p>
+                <button>Learn More</button>
+            </section>
+            <section class="spin">
+                <img src="images/tire.svg" alt="tire">
+                <p>Break Check</p>
+                <button>Learn More</button>
+            </section>
+            <section class="pulse">
+                <img src="images/wrench.svg" alt="wrench">
+                <p>Repair</p>
+                <button>Learn More</button>
+            </section>
+            <section class="color">
+                <div class="shape"><img src="images/paint.svg" alt="paint"></div>
+                <p>Repaint</p>
+                <button>Learn More</button>
+            </section>
+        </div>
+        
+        <div class="reviewWrapper">
+            <h2>What our Customers Say</h2>
+            <section id="rcards"></section> <!-- end review cards -->
+        </div>
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p class="legal">&copy; <span id="year">inject</span> &bull; Sophia Otis</p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   <script src="js/scripts.js" type="module"></script>
+</body>
+</html> 
